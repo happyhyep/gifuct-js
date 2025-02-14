@@ -8,6 +8,7 @@
     "build": "babel src --out-dir lib",
     "build-demo": "webpack demo/demo.js -o demo/demo.build.js --mode=\"none\""
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/matt-way/gifuct-js.git"
